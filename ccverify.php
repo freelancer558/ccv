@@ -37,7 +37,7 @@
 			'setDescription' => 'Payment description',
 		),
 		'payment' => array( 
-			'setIntent' => 'test', /*sale or authorize*/
+			'setIntent' => 'authorize', /*sale or authorize*/
 		),
 	);
 
@@ -101,7 +101,7 @@
 		$response['status']  = 'error';
 	}
 
-	/* show detail */
+	/* เอาคอมเม้นออกเพื่อจะดูผลลัพธ์ */
 	// print json_encode($result);
 
 ?>
